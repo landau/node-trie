@@ -1,0 +1,49 @@
+{
+  "name": "trie-node",
+  "version": "1.0.0",
+  "description": "A trie implementation for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc -s node test.js",
+    "posttest": "eslint . && npm run -s view-cov && npm run -s check-cov",
+    "check-cov": "nyc check-coverage --lines 100 --functions 100 --branches 100",
+    "html-cov": "nyc report --reporter=html",
+    "view-cov": "nyc report",
+    "browse-cov": "open coverage/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landau/node-trie.git"
+  },
+  "keywords": [
+    "trie",
+    "string",
+    "search",
+    "datastructure"
+  ],
+  "author": "Trevor Landau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/landau/node-trie/issues"
+  },
+  "homepage": "https://github.com/landau/node-trie#readme",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "files": [
+    "index.js",
+    "package-lock.json"
+  ],
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "8.0.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
+    "nyc": "13.1.0",
+    "prettier": "1.15.2"
+  }
+}
