@@ -1,5 +1,7 @@
 # node-trie
 
+[![Build Status](https://travis-ci.com/landau/node-trie.svg?branch=master)](https://travis-ci.com/landau/node-trie)
+
 A [trie](https://en.wikipedia.org/wiki/Trie) implementation for NodeJS
 
 ## Install
