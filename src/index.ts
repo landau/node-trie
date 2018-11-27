@@ -24,7 +24,7 @@ function createNode(): TrieNode {
   };
 }
 
-type Trie = {
+export type Trie = {
   insert(key: string): void;
   find(key: string): boolean;
 };

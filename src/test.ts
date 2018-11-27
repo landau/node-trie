@@ -1,9 +1,9 @@
 'use strict';
 
 import * as assert from 'assert';
-import { createTrie } from './index';
+import { createTrie, Trie } from './index';
 
-const trie = createTrie();
+const trie: Trie = createTrie();
 const strings: string[] = ['hi', 'hello', 'bye', 'see ya'];
 
 for (const s of strings) {

@@ -6,10 +6,10 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "clean": "rm -rf dist/**",
-    "build": "tsc",
+    "build": "npm run -s clean && tsc",
     "watch": "tsc --watch",
     "test": "nyc -s node src/test.ts",
-    "prepublishOnly": "tsc",
+    "prepublishOnly": "npm run -s clean && tsc",
     "posttest": "eslint . --ext .ts && npm run -s view-cov && npm run -s check-cov",
     "check-cov": "nyc check-coverage --lines 100 --functions 100 --branches 100",
     "html-cov": "nyc report --reporter=html",
@@ -37,6 +37,7 @@
   },
   "files": [
     "dist/index.js",
+    "dist/index.js.map",
     "dist/index.d.ts",
     "src/index.ts",
     "package-lock.json"
