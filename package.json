@@ -36,9 +36,7 @@
     "node": ">= 8.0.0"
   },
   "files": [
-    "dist/index.js",
-    "dist/index.js.map",
-    "dist/index.d.ts",
+    "dist/index.*",
     "src/index.ts",
     "REaDME.md"
   ],
