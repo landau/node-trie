@@ -12,8 +12,19 @@ npm i -S trie-node
 
 ## Usage
 
+### TS
+
 ```js
-const { create: createTrie } = require('trie-node');
+import { createTrie, Trie } from '@landau/trie';
+const trie: Trie = createTrie();
+trie.insert('hi');
+trie.find('hi'); // true
+```
+
+### JS
+
+```js
+const { createTrie } = require('@landau/trie');
 const trie = createTrie();
 trie.insert('hi');
 trie.find('hi'); // true

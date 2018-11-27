@@ -40,7 +40,7 @@
     "dist/index.js.map",
     "dist/index.d.ts",
     "src/index.ts",
-    "package-lock.json"
+    "REaDME.md"
   ],
   "nyc": {
     "extension": [
