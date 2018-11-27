@@ -1,15 +1,20 @@
 {
-  "name": "trie-node",
+  "name": "@landau/trie",
   "version": "1.0.0",
   "description": "A trie implementation for NodeJS",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "nyc -s node test.js",
+    "clean": "rm -rf dist/**",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "nyc -s node src/test.ts",
+    "prepublishOnly": "tsc",
     "posttest": "eslint . && npm run -s view-cov && npm run -s check-cov",
     "check-cov": "nyc check-coverage --lines 100 --functions 100 --branches 100",
     "html-cov": "nyc report --reporter=html",
     "view-cov": "nyc report",
-    "browse-cov": "open coverage/index.html"
+    "browse-cov": "npm run-s html-cov && open coverage/index.html"
   },
   "repository": {
     "type": "git",
@@ -34,6 +39,18 @@
     "index.js",
     "package-lock.json"
   ],
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "require": [
+      "ts-node/register",
+      "source-map-support/register"
+    ]
+  },
   "devDependencies": {
     "eslint": "5.9.0",
     "eslint-config-prettier": "3.3.0",
@@ -43,7 +60,14 @@
     "eslint-plugin-prettier": "3.0.0",
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-standard": "4.0.0",
+    "eslint-plugin-typescript": "0.14.0",
     "nyc": "13.1.0",
-    "prettier": "1.15.2"
+    "prettier": "1.15.2",
+    "ts-node": "7.0.1",
+    "typescript": "3.1.6",
+    "typescript-eslint-parser": "21.0.1"
+  },
+  "dependencies": {
+    "@types/node": "10.12.10"
   }
 }
