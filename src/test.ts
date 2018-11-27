@@ -7,7 +7,7 @@ const trie = createTrie();
 const strings: string[] = ['hi', 'hello', 'bye', 'see ya'];
 
 for (const s of strings) {
-  assert.equal(trie.find(s), false, `Should not have found ${s}`);
+  assert.strictEqual(trie.find(s), false, `Should not have found ${s}`);
   assert.strictEqual(trie.insert(s), undefined, 'No return value for insert');
   assert.ok(trie.find(s), `Should have found ${s}`);
 }

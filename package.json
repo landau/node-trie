@@ -10,7 +10,7 @@
     "watch": "tsc --watch",
     "test": "nyc -s node src/test.ts",
     "prepublishOnly": "tsc",
-    "posttest": "eslint . && npm run -s view-cov && npm run -s check-cov",
+    "posttest": "eslint . --ext .ts && npm run -s view-cov && npm run -s check-cov",
     "check-cov": "nyc check-coverage --lines 100 --functions 100 --branches 100",
     "html-cov": "nyc report --reporter=html",
     "view-cov": "nyc report",
@@ -36,7 +36,9 @@
     "node": ">= 8.0.0"
   },
   "files": [
-    "index.js",
+    "dist/index.js",
+    "dist/index.d.ts",
+    "src/index.ts",
     "package-lock.json"
   ],
   "nyc": {
