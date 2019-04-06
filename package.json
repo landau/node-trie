@@ -8,9 +8,10 @@
     "clean": "rm -rf dist/**",
     "build": "npm run -s clean && tsc",
     "watch": "tsc --watch",
+    "lint": "eslint . --ext .ts",
     "test": "nyc -s node src/test.ts",
     "prepublishOnly": "npm run -s clean && tsc",
-    "posttest": "eslint . --ext .ts && npm run -s view-cov && npm run -s check-cov",
+    "posttest": "npm run -s lint && npm run -s view-cov && npm run -s check-cov",
     "check-cov": "nyc check-coverage --lines 100 --functions 100 --branches 100",
     "html-cov": "nyc report --reporter=html",
     "view-cov": "nyc report",
@@ -53,20 +54,18 @@
     ]
   },
   "devDependencies": {
+    "@landau/eslint-config": "1.0.2",
+    "@typescript-eslint/eslint-plugin": "1.6.0",
+    "@typescript-eslint/parser": "1.6.0",
     "eslint": "5.9.0",
     "eslint-config-prettier": "3.3.0",
-    "eslint-config-standard": "12.0.0",
     "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-node": "8.0.0",
     "eslint-plugin-prettier": "3.0.0",
     "eslint-plugin-promise": "4.0.1",
-    "eslint-plugin-standard": "4.0.0",
-    "eslint-plugin-typescript": "0.14.0",
     "nyc": "13.1.0",
     "prettier": "1.15.2",
     "ts-node": "7.0.1",
-    "typescript": "3.1.6",
-    "typescript-eslint-parser": "21.0.1"
+    "typescript": "3.4.2"
   },
   "dependencies": {
     "@types/node": "10.12.10"
