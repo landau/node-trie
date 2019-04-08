@@ -1,6 +1,6 @@
 {
   "encrypted": {
-    "npmToken":"n87yL/El0vSnAbh7Any5SClJy+OH1uJtjbg1BPuMu+es20UPJ0w9gzQX/U+Kvcl7v8s2FTl7MGS0wiykGHf3S2viH/ICWaMqdsMCe0ZhdRswFpLaFm5p5YW0I2cJMBsTYSpqrr4KiaGyuRcuuxX6ATECO2QJl3fyEPc2sScNmBOoTWx+qVK+sZGFqDtJIGaFSjXJTGOPB9w4Ie9LThqEx4JSUY3dJcYwFzNFvSYdZrbn01iaRjGUo6uQV6qYmOZt3dXkYYwmPceIHW9a7MJHyJS197C2Lr2dEz2ssQg2mQODn8Wby2OoghoA9Y57ERRh9Jgioumc2QEeWmPPTjP2iw=="
+    "npmToken": "X2dWMnUqVSi1MWjDrFCo3cRLxjzvo5yX/xsay9Z9esHc06qC1H8vgAvFJjDX58LxPH47m//7+GnUOJV5sSb5cj1rpstv+KpDz1TU9S1PQn/S8e1FERcxeg3WpmjD+f8an8Tp/LYNhV75WVV50aYrsi/+mJSLEKFfP2H9RSUsh44YVBDJUmwtU6V/jk4qR5iujRKLPfwlOcyQ65aB/S2E5BbspA1eMBjYgc5dlkmSOzZDLIfhh05PTryZZqdnGJg9+vR2cTGUnluWHYPSoJoa7AqQJKGgth+1EqHeVGvnSXV7vD/cpBK6azQaaRCPYND5ePeWdI2TgcggcjiEIwQOnA=="
   },
   "extends": ["config:base"],
   "ignoreUnstable": true,
