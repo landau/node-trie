@@ -1,7 +1,4 @@
 {
-  "encrypted": {
-    "npmToken":"n87yL/El0vSnAbh7Any5SClJy+OH1uJtjbg1BPuMu+es20UPJ0w9gzQX/U+Kvcl7v8s2FTl7MGS0wiykGHf3S2viH/ICWaMqdsMCe0ZhdRswFpLaFm5p5YW0I2cJMBsTYSpqrr4KiaGyuRcuuxX6ATECO2QJl3fyEPc2sScNmBOoTWx+qVK+sZGFqDtJIGaFSjXJTGOPB9w4Ie9LThqEx4JSUY3dJcYwFzNFvSYdZrbn01iaRjGUo6uQV6qYmOZt3dXkYYwmPceIHW9a7MJHyJS197C2Lr2dEz2ssQg2mQODn8Wby2OoghoA9Y57ERRh9Jgioumc2QEeWmPPTjP2iw=="
-  },
   "extends": ["config:base"],
   "ignoreUnstable": true,
   "devDependencies": {
