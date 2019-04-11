@@ -69,6 +69,7 @@
     "semantic-release": "15.13.3"
   },
   "dependencies": {
-    "@types/node": "10.12.10"
+    "@types/node": "10.12.10",
+    "predicate": "1.2.0"
   }
 }
