@@ -1,12 +1,19 @@
 language: node_js
 
 cache:
-  apt: true
   directories:
     - $HOME/.npm
 
-
 node_js:
-  - "8"
-  - "10"
+  - 8
+  - 10
 
+jobs:
+  include:
+    - stage: release
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release

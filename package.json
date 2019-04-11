@@ -1,6 +1,6 @@
 {
   "name": "@landau/trie",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A trie implementation for NodeJS",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -15,11 +15,12 @@
     "check-cov": "nyc check-coverage --lines 100 --functions 100 --branches 100",
     "html-cov": "nyc report --reporter=html",
     "view-cov": "nyc report",
-    "browse-cov": "npm run-s html-cov && open coverage/index.html"
+    "browse-cov": "npm run-s html-cov && open coverage/index.html",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/landau/node-trie.git"
+    "url": "https://github.com/landau/node-trie.git"
   },
   "keywords": [
     "trie",
@@ -65,7 +66,8 @@
     "nyc": "13.3.0",
     "prettier": "1.16.4",
     "ts-node": "8.0.3",
-    "typescript": "3.4.3"
+    "typescript": "3.4.3",
+    "semantic-release": "15.13.3"
   },
   "dependencies": {
     "@types/node": "10.12.10"

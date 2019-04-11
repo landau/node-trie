@@ -26,13 +26,15 @@
       "packagePatterns": ["*"],
       "depTypeList": ["dependencies"],
       "updateTypes": ["major"],
-      "labels": ["UPDATE-MAJOR"]
+      "labels": ["UPDATE-MAJOR"],
+      "semanticCommits": true
     },
     {
       "packagePatterns": ["*"],
       "depTypeList": ["dependencies"],
       "updateTypes": ["minor", "patch"],
-      "labels": ["UPDATE-NON-MAJOR"]
+      "labels": ["UPDATE-NON-MAJOR"],
+      "semanticCommits": true
     }
   ]
 }
