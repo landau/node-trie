@@ -1,6 +1,6 @@
 {
   "name": "@landau/trie",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A trie implementation for NodeJS",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -39,8 +39,7 @@
   },
   "files": [
     "dist/index.*",
-    "src/index.ts",
-    "REaDME.md"
+    "src/index.ts"
   ],
   "nyc": {
     "extension": [
