@@ -12,6 +12,7 @@ jobs:
   include:
     - stage: release
       node_js: 10
+      script: echo "RELEASE!"
       deploy:
         provider: script
         skip_cleanup: true
