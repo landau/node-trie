@@ -11,8 +11,9 @@ node_js:
 jobs:
   include:
     - stage: release
+      if: branch = master
       node_js: 10
-      script: echo "RELEASE!"
+      script: skip
       deploy:
         provider: script
         skip_cleanup: true
