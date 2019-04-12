@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/landau/node-trie/compare/v1.0.4...v1.0.5) (2019-04-12)
+
+
+### Bug Fixes
+
+* **.releaserc:** Fix release ordering ([c0c47a4](https://github.com/landau/node-trie/commit/c0c47a4))
+
 ## [1.0.4](https://github.com/landau/node-trie/compare/v1.0.3...v1.0.4) (2019-04-12)
 
 
