@@ -49,7 +49,9 @@ export function createTrie(): Trie {
     let cur = root;
     for (const char of key) {
       const next = cur.get(char);
-      if (!next) return false;
+      if (!next) {
+        return false;
+      }
       cur = next;
     }
 
