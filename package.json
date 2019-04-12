@@ -1,6 +1,6 @@
 {
   "name": "@landau/trie",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A trie implementation for NodeJS",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -69,7 +69,6 @@
     "semantic-release": "15.13.3"
   },
   "dependencies": {
-    "@types/node": "10.12.10",
-    "predicate": "1.2.0"
+    "@types/node": "10.12.10"
   }
 }
