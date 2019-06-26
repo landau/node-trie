@@ -56,8 +56,8 @@
   "devDependencies": {
     "@landau/eslint-config": "2.0.0",
     "@semantic-release/changelog": "3.0.4",
-    "@semantic-release/git": "7.0.13",
-    "@semantic-release/npm": "5.1.12",
+    "@semantic-release/git": "7.0.14",
+    "@semantic-release/npm": "5.1.13",
     "@typescript-eslint/eslint-plugin": "1.11.0",
     "@typescript-eslint/parser": "1.11.0",
     "eslint": "5.16.0",
@@ -67,7 +67,7 @@
     "eslint-plugin-promise": "4.2.1",
     "nyc": "14.1.1",
     "prettier": "1.18.2",
-    "semantic-release": "15.13.17",
+    "semantic-release": "15.13.18",
     "ts-node": "8.3.0",
     "typescript": "3.5.2"
   },
