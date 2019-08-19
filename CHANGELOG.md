@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/landau/node-trie/compare/v1.0.5...v1.0.6) (2019-08-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/node to v10.14.15 ([ab419fe](https://github.com/landau/node-trie/commit/ab419fe))
+
 ## [1.0.5](https://github.com/landau/node-trie/compare/v1.0.4...v1.0.5) (2019-04-12)
 
 
