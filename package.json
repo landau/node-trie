@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "@landau/eslint-config": "3.0.1",
-    "@semantic-release/changelog": "3.0.5",
+    "@semantic-release/changelog": "3.0.6",
     "@semantic-release/git": "7.0.18",
     "@semantic-release/npm": "5.3.4",
     "@types/node": "12.12.8",
