@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/landau/node-trie#readme",
   "engines": {
-    "node": ">= 8.0.0"
+    "node": ">= 10.0.0"
   },
   "files": [
     "dist/index.*",
