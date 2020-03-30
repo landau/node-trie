@@ -15,8 +15,8 @@ branches:
 
 jobs:
   include:
-    - stage: release
-      if: branch = master
+    - if: branch = master
+      stage: release
       node_js: 10
       script: skip
       deploy:
