@@ -20,7 +20,7 @@ function createNode(): TrieNode {
   return {
     isLeaf: false,
     add,
-    get
+    get,
   };
 }
 
